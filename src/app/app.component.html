@@ -1,0 +1,13 @@
+
+<div *ngIf="list.length">
+  <p *ngFor="let personne of list" (click)="afficher(personne)">  {{personne.name}} </p>
+  <div *ngIf="name" style="color:	#333333; background-color: #cc3333; font-weight:bold; " >
+    <P>{{name}}</P>
+    <P>{{username}}</P>
+    <P>{{email}}</P>
+    <P>{{phone}}</P>
+    <P>{{website}}</P>
+    
+    
+  </div>
+</div>
